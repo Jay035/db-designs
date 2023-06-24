@@ -18,12 +18,12 @@ export default function Footer() {
       </h1>
       <section className="flex md:items-center flex-col sm:flex-row justify-between gap-8">
         <a
-          href="mailto:Uniqueideas85@gmail.com"
+          href="mailto:bennyakhigbe407@gmail.com"
           className="bg-[#9CFF8F] hover:bg-[#9CFF8F]/80 rounded-[30px] w-fit flex items-center gap-[10px] py-2 md:py-3 px-4"
         >
           Send me an email <img src={arrowUpRight} alt="arrow right" />
         </a>
-        <div className="flex gap-4 items-center">
+        {/* <div className="flex gap-4 items-center">
           <a href="https://wa.me/+2348103408082">
             <img className="w-7" src={whatsapp} alt="whatsapp logo" />
           </a>
@@ -36,7 +36,7 @@ export default function Footer() {
           <a href="https://twitter.com/uniquee_ideas">
             <img src={twitter} alt="twitter logo" />
           </a>
-        </div>
+        </div> */}
       </section>
     </footer>
   );

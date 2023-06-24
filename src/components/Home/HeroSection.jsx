@@ -40,7 +40,7 @@ export default function HeroSection() {
         alt="Ify avatar"
       />
       <p className="text-center mb-8 md:text-lg w-fit mr-auto text-[#DF99F7] py-2 md:py-3 px-3 md:px-4 rounded-[30px] border border-[#DF99F7]">
-        Based in Ireland
+      Currently based in Ireland 🇮🇪
       </p>
       <h1 className="font-league-gothic">
         <span className="hero-item text flex gap-3 md:gap-[18px] items-center mb-2">
