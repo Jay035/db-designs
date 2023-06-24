@@ -7,26 +7,26 @@ export default function HeroSection() {
   let hero = useRef(null);
 
   // useLayoutEffect(() => {
-    // let ctx = gsap.context(() => {
-      // gsap.from(".hero-item", {
-      //   duration: 2,
-      //   stagger: {
-      //     amount: 0.4,
-      //   },
-      //   ease: Power3.easeIn,
-      //   opacity: 0,
-      // });
-      // gsap.from(".hero-img", {
-      //   x: -100,
-      // });
-      // gsap.from(".text", {
-      //   y: -100,
-      // });
-      // gsap.from(".pText", {
-      //   x: 100,
-      // });
-    // }, hero);
-    // return () => ctx.revert();
+  // let ctx = gsap.context(() => {
+  // gsap.from(".hero-item", {
+  //   duration: 2,
+  //   stagger: {
+  //     amount: 0.4,
+  //   },
+  //   ease: Power3.easeIn,
+  //   opacity: 0,
+  // });
+  // gsap.from(".hero-img", {
+  //   x: -100,
+  // });
+  // gsap.from(".text", {
+  //   y: -100,
+  // });
+  // gsap.from(".pText", {
+  //   x: 100,
+  // });
+  // }, hero);
+  // return () => ctx.revert();
   // }, []);
 
   return (
@@ -39,10 +39,13 @@ export default function HeroSection() {
         src={avatar}
         alt="Ify avatar"
       />
+      <p className="text-center mb-8 md:text-lg w-fit mr-auto text-[#DF99F7] py-2 md:py-3 px-3 md:px-4 rounded-[30px] border border-[#DF99F7]">
+        Based in Ireland
+      </p>
       <h1 className="font-league-gothic">
         <span className="hero-item text flex gap-3 md:gap-[18px] items-center mb-2">
           <span className="text-[72px] leading-[1] md:text-6xl lg:text-8xl xl:text-[150px] xl:leading-[150px] tracking-[-0.03em]">
-            HI, I’M IFY!
+            HI, I’M BENNY!
           </span>
           <img className="w-10 md:w-[60px] lg:w-[72px]" src={frame} alt="" />
         </span>
