@@ -33,7 +33,7 @@ export default function HeroSection() {
     <section
       ref={hero}
       className="mb-[122px] w-full px-[9.5vw] mt-20 xl:mt-[150px]"
-    >
+    > 
       <img
         className="hero-item hero-img w-32 md:w-[146px] mb-8"
         src={avatar}
