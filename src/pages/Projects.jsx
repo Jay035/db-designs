@@ -91,7 +91,7 @@ export default function Projects() {
                   </h2>
                 </div>
                 {project?.disabled && (
-                  <p className="text-center text-[#DF99F7] py-2 md:py-3 px-3 md:px-4 rounded-[30px] border border-[#DF99F7]">
+                  <p className="text-center text-xs md:text-base text-[#DF99F7] py-2 md:py-3 px-2 md:px-4 rounded-[30px] border border-[#DF99F7]">
                     Coming soon
                   </p>
                 )}
